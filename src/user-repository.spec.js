@@ -93,9 +93,9 @@ describe("UserRepository", () => {
         })
     })
 
-    describe('findAll', () => {
-        test.todo("Deve retornar uma lista vazia de usuários")
-        test.todo("Deve retornar uma lista contendo dois usuários")
-    })
+    // describe('findAll', () => {
+    //     test.todo("Deve retornar uma lista vazia de usuários")
+    //     test.todo("Deve retornar uma lista contendo dois usuários")
+    // })
 
 })
