@@ -1,0 +1,25 @@
+{
+  "name": "pos-integration-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicaosouza/pos-integration-tests.git"
+  },
+  "author": "Jessica Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicaosouza/pos-integration-tests/issues"
+  },
+  "homepage": "https://github.com/jessicaosouza/pos-integration-tests#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "mongodb": "^4.11.0"
+  }
+}
