@@ -13,7 +13,7 @@ describe("UserRepository", () => {
     // nT2X2EA31xc0UjVh
 
     beforeAll(async () => {
-        const uri = 'mongodb+srv://admina:nT2X2EA31xc0UjVh@cluster0.hp7msk8.mongodb.net/?retryWrites=true&w=majority'
+        const uri = ''
         dbclient = new MongoClient(uri)
         await dbclient.connect();
         collection = dbclient.db('users_db').collection('users')
